@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 import { graphql, StaticQuery } from "gatsby";
 
 import "bootstrap/dist/css/bootstrap.css";
-import "prismjs/themes/prism-solarizedlight.css";
+import "../util/prism-monokai.css";
 import "code-mirror-themes/themes/monokai.css";
 import "./index.css";
 

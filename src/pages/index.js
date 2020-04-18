@@ -39,10 +39,7 @@ const IndexPage = () => (
           <h2>{props.site.siteMetadata.subtitle}</h2>
         </div>
 
-        <Card
-          title="Table of Contents"
-          content={props.allMarkdownRemark.edges}
-        />
+        <Card title="فهرست مطالب" content={props.allMarkdownRemark.edges} />
       </div>
     )}
   />

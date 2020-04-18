@@ -1,9 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Course",
-    subtitle: "For making great content",
-    description:
-      "This is the description that will show up when people share as well as on search engines",
+    title: "معماری کامپیوتر",
+    subtitle: "یو یو یو یو یو ",
+    description: "---------------دسکریپشون",
     keywords: [
       "this is",
       "a list of keywords and phrase",

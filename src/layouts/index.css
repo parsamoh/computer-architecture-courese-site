@@ -37,6 +37,9 @@
   color: white;
   text-transform: uppercase;
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .navbar-brand.navbar-brand {
@@ -53,12 +56,20 @@
   color: white;
 }
 
+.lesson-container {
+  display: flex;
+  justify-content: center;
+}
+
 .lesson {
   margin: 15px;
-  padding: 15px;
+  padding: 87px 100px;
   background-color: #fff;
   border-radius: 8px;
   overflow: scroll;
+  direction: rtl;
+  text-align: right;
+  max-width: 70vw;
 }
 
 .lesson p {
