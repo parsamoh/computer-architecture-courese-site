@@ -1,9 +1,9 @@
-@import url("https://lib.codism.pro/fonts/yekanbakh/bakh.css");
+@import url("https://lib.codism.pro/fonts/yekanbakh/yekan-bakh.css");
 
 body {
   background-color: #eee;
-  font-family: "Yekan Bakh";
-  font-size: 20px;
+  font-family: YekanBakh, sans-serif;
+  font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
   font-stretch: normal;
   line-height: 1.35;
   text-align: right;
@@ -25,6 +25,11 @@ pre {
   font-size: 30px;
   font-weight: 300;
 }
+/* 
+.gatsby-resp-image-image {
+  max-height: 70vh;
+  width: auto !important;
+} */
 
 .index {
   width: 97%;
@@ -67,6 +72,17 @@ pre {
 }
 
 .lesson-content table {
+}
+
+.lesson-links {
+  direction: ltr;
+}
+
+blockquote {
+  margin: 0 0 1rem;
+  background-color: #e0dffe;
+  padding: 20px;
+  border-radius: 7px;
 }
 
 .lesson-content td {
